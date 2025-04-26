@@ -2,18 +2,16 @@
 
 Welcome to the official ARGOS Smart Trailer starter site.
 
-This project showcases the innovation behind the ARGOS Smart Trailer — combining electric axle technology, intelligent telematics, and real-time operational insights for the future of Class 8 dry van logistics.
+This project showcases the innovation behind the ARGOS Smart Trailer. Only ARGOS combines electric axle technology, intelligent telematics, and real time operational insights for the future of Class 8 logistics.
 
-## 🌟 Key Features
+## Key Features
 - Light and Dark Theme Toggle (🌙/☀️)
-- Clean, Minimalist, Responsive Design
-- Real Industry Content (not placeholder lorem ipsum)
-- Modular Pages: Home, About, Product, Investment, Contact
+- Modular Pages: Home, About, Sim, etc.
 - Smooth Scroll Animations for Professional Feel
-- Designed for GitHub Pages Hosting (Static Site)
+- Designed for GitHub Hosting
 
-## 🚀 How to Launch
-1. Upload all project files to a new **public** GitHub repository.
+## Launch
+1. Upload all project files to a new GitHub repository.
 2. Enable **GitHub Pages** in the repo Settings.
 3. Set Pages Source to **main branch / root**.
 4. Visit your published GitHub Pages link!
@@ -43,6 +41,6 @@ If you want to connect your Porkbun domain, see below.
 ---
 
 # 🤝 Contact
-Built and refined by [Smith Clove LLC] — Powered by innovation and execution.
+Built and refined by [Smith Clove LLC]
 
 ---
