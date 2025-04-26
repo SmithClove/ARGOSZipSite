@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About ARGOS</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="theme-switcher.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="navbar">
-      <a href="index.html" class="logo">
-        <img src="assets/argos-logo.png" alt="ARGOS Logo" height="40" />
-      </a>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="simulation.html">Simulation</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button id="theme-toggle" class="theme-toggle">🌙/☀️</button>
-    </header>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>ARGOS Smart Trailer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive design [oai_citation:9‡developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag#:~:text=%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="assets/argos-logo.png" alt="Argos Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="simulation.html">Simulation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Theme toggle button with accessible label [oai_citation:10‡developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role#:~:text=Buttons%20should%20always%20have%20an,or%20%2092%20attributes) -->
+        <li><button data-theme-toggle aria-label="Toggle theme">🌓</button></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="main">
-      <section class="content">
-        <h1>About ARGOS</h1>
-        <p>
-          ARGOS is pioneering the future of freight with the first retrofit-ready smart trailer.
-          Designed for the Class 8 dry van segment, our platform integrates electric axle
-          propulsion, real-time telematics, and intelligent compliance systems — all in a drop-in upgrade.
-        </p>
-        <p>
-          With fuel costs, maintenance, and safety regulations rising, ARGOS helps carriers unlock
-          operational savings, increase uptime, and stay ahead of 2027 EPA standards — without replacing their fleet.
-        </p>
-        <p>
-          We're building a better trailer — because the future of freight shouldn’t be stuck in the past.
-        </p>
-      </section>
-    </main>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>ARGOS Smart Trailer</h1>
+      <p class="subtitle">Modernizing freight logistics and making trucking sustainable.</p>
+      <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </section>
 
-    <footer class="footer">
-      <p>© 2025 ARGOS. All rights reserved.</p>
-    </footer>
-  </body>
+    <!-- Features Section -->
+    <section class="features">
+      <div class="feature-card">
+        <h3>Fuel Savings</h3>
+        <p>Optimize fuel usage with intelligent routing and monitoring.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Uptime</h3>
+        <p>Maximize trailer uptime with predictive maintenance alerts.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Compliance</h3>
+        <p>Stay compliant with automated logging and safety checks.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Argos Smart Trailer. All rights reserved.</p>
+  </footer>
+
+  <script src="theme-switcher.js"></script>
+</body>
 </html>
