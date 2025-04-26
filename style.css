@@ -1,0 +1,47 @@
+:root {
+  --bg-light: #FAFAFA;
+  --bg-dark: #000000;
+  --primary-light: #4B0082;
+  --primary-dark: #00FF94;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: #FAFAFA;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-button {
+  background-color: var(--primary-light);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-dark);
+}
